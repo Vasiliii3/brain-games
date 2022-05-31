@@ -46,7 +46,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "027182ba19716544158abba917084214bb02fec36bf7fa9581a7ab0f95e6ca20"
+content-hash = "bb7070b91c2d06260582e869d055d0dedad62a3b89d90ee975f10a2f73b7b32c"
 
 [metadata.files]
 flake8 = [
