@@ -1,11 +1,3 @@
-__pycache__
-*.pyc
-
-.coverage
-coverage.xml
-.pytest_cache/
-
-
 # Distribution / packaging
 .Python
 build/
@@ -38,3 +30,13 @@ venv.bak/
 .vim
 .idea
 .venv/
+
+# Other
+/for_test.py
+
+__pycache__
+*.pyc
+
+.coverage
+coverage.xml
+.pytest_cache/
