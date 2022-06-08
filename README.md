@@ -13,6 +13,7 @@ You can play the following games:
 * Even check (command to call brain-even)
 * Calculator (brain-calc)
 * Greatest common divider (brain-gcd)
+* Arithmetic progression (brain-progression)
 
 
 Game Example:
@@ -25,3 +26,7 @@ Calculator
 
 Greatest common divider
 [![asciicast](https://asciinema.org/a/QNp1oIRiW77IiYlD5seoAZDp3.svg)](https://asciinema.org/a/QNp1oIRiW77IiYlD5seoAZDp3)
+
+Arithmetic progression
+[![asciicast](https://asciinema.org/a/zrrsiCDNExnXWTxB3X1BoZrM3.svg)](https://asciinema.org/a/zrrsiCDNExnXWTxB3X1BoZrM3)
+
