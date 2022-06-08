@@ -1,9 +1,12 @@
 #!/usr/bin/env python
-from brain_games.games.newgames import new_game
+from brain_games.games.logic import gaming
+from brain_games.games.even import even_number, generate_number
 
 
 def main():
-    new_game()
+    question = 'Answer "yes" if the number is even, ' \
+               'otherwise answer "no".'
+    gaming(even_number, generate_number, question)
 
 
 if __name__ == '__main__':
