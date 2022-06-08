@@ -12,7 +12,7 @@ You can play the following games:
 
 * Even check (command to call brain-even)
 * Calculator (brain-calc)
-
+* Greatest common divider (brain-gcd)
 
 
 Game Example:
@@ -23,3 +23,5 @@ Even check
 Calculator
 [![asciicast](https://asciinema.org/a/xsSoMnIoULSgj2FiS5Y8tCL12.svg)](https://asciinema.org/a/xsSoMnIoULSgj2FiS5Y8tCL12)
 
+Greatest common divider
+[![asciicast](https://asciinema.org/a/QNp1oIRiW77IiYlD5seoAZDp3.svg)](https://asciinema.org/a/QNp1oIRiW77IiYlD5seoAZDp3)
