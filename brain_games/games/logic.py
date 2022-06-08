@@ -1,6 +1,11 @@
 import prompt
+import random
 
 NUMBER_GAMES = 3
+
+
+def generate_number(min_number: int, max_number: int) -> int:
+    return int(random.randint(min_number, max_number))
 
 
 def get_name_new_user():
