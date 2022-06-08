@@ -29,7 +29,7 @@ package-install:
 	python3 -m pip install --user dist/*.whl
 # распаковка
 uninstall:
-	pip uninstall python-project-lvl1 -y
+	pip uninstall hexlet_code -y
 # удаление
 lint:
 	poetry run flake8 brain_games
