@@ -18,7 +18,7 @@ package-install:
 	python -m pip install dist/*.whl
 # распаковка
 uninstall:
-	pip uninstall python-project-lvl1
+	pip uninstall python-project-lvl1 -y
 # удаление
 lint:
 	poetry run flake8 brain_games
