@@ -16,14 +16,17 @@ brain-gcd:
 brain-progression:
 	poetry run brain-progression
 
+brain_prime:
+	poetry run brain_prime
+
 build:
 	poetry build
 # сборка проекта
 publish:
 	poetry publish --dry-run
-# тестовая публикация в папку dist
+
 package-install:
-	python -m pip install dist/*.whl
+	python3 -m pip install --user dist/*.whl
 # распаковка
 uninstall:
 	pip uninstall python-project-lvl1 -y

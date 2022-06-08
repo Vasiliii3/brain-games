@@ -1,12 +1,10 @@
 # My first project
-
+Project within the course [hexlet](https://ru.hexlet.io/)
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Vasiliii3/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Vasiliii3/python-project-lvl1/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/a88785ff5134935ffafa/maintainability)](https://codeclimate.com/github/Vasiliii3/python-project-lvl1/maintainability)
 [![hexlet-check](https://github.com/Vasiliii3/python-project-lvl1/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Vasiliii3/python-project-lvl1/actions/workflows/hexlet-check.yml)
 [![test lint](https://github.com/Vasiliii3/python-project-lvl1/actions/workflows/lint.yml/badge.svg)](https://github.com/Vasiliii3/python-project-lvl1/actions/workflows/lint.yml)
-
-Project within the course [hexlet](https://ru.hexlet.io/)
 
 You can play the following games:
 
@@ -14,6 +12,7 @@ You can play the following games:
 * Calculator (brain-calc)
 * Greatest common divider (brain-gcd)
 * Arithmetic progression (brain-progression)
+* Prime number (brain-prime)
 
 
 Game Example:
@@ -30,3 +29,5 @@ Greatest common divider
 Arithmetic progression
 [![asciicast](https://asciinema.org/a/zrrsiCDNExnXWTxB3X1BoZrM3.svg)](https://asciinema.org/a/zrrsiCDNExnXWTxB3X1BoZrM3)
 
+Prime number
+[![asciicast](https://asciinema.org/a/Jy0jE7QPyU54ywb0HpzeX819H.svg)](https://asciinema.org/a/Jy0jE7QPyU54ywb0HpzeX819H)
