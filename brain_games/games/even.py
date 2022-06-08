@@ -7,6 +7,7 @@ def even_number(number: int) -> bool:
 
 def generate_number() -> int:
     return int(random.randint(1, 100))
+# генерация числа от 1 до 100
 
 
 def play_even():
