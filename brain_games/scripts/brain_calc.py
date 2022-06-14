@@ -1,11 +1,10 @@
 #!/usr/bin/env python
-from brain_games.games.logic import gaming
-from brain_games.games.calc import play_calc
+from brain_games.engine import run
+from brain_games.games import calc
 
 
 def main():
-    question = 'What is the result of the expression?'
-    gaming(play_calc, question)
+    run(calc)
 
 
 if __name__ == '__main__':

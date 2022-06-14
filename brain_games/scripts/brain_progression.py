@@ -1,11 +1,10 @@
 #!/usr/bin/env python
-from brain_games.games.logic import gaming
-from brain_games.games.progrs import play_prog
+from brain_games.engine import run
+from brain_games.games import progrs
 
 
 def main():
-    question = 'What number is missing in the progression?'
-    gaming(play_prog, question)
+    run(progrs)
 
 
 if __name__ == '__main__':

@@ -1,12 +1,10 @@
 #!/usr/bin/env python
-from brain_games.games.logic import gaming
-from brain_games.games.prime import play_prime
+from brain_games.engine import run
+from brain_games.games import prime
 
 
 def main():
-    question = 'Answer "yes" if the number is prime, ' \
-               'otherwise answer "no".'
-    gaming(play_prime, question)
+    run(prime)
 
 
 if __name__ == '__main__':

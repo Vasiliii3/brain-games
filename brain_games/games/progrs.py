@@ -1,34 +1,25 @@
 import random
-import operator
-from brain_games.games.logic import generate_number
-
-c_operations = {"+": operator.add,
-                "-": operator.sub,
-                }
 
 ELEMENTS_PROGRESSION = 10
+DESCRIPTION = 'What number is missing in the progression?'
 
 
 def generate_progressions():
-    mathematical_operator = random.choice(list(c_operations.keys()))
-    number_start = generate_number(min_number=1, max_number=50)
-    step = generate_number(min_number=1, max_number=5)
+    number_start = random.randint(1, 50)
+    step = random.randint(-10, 10)
     a_progressions = [number_start, ]
-    elements_replacement = generate_number(min_number=1,
-                                           max_number=ELEMENTS_PROGRESSION)
+    elements_replacement = random.randint(0, ELEMENTS_PROGRESSION - 1)
     last_elements = number_start
     for x in range(1, ELEMENTS_PROGRESSION):
-        new_elements = c_operations[mathematical_operator](last_elements, step)
-        if x == elements_replacement:
-            answer = last_elements = new_elements
-            a_progressions.append("..")
-            continue
+        new_elements = last_elements + step
         last_elements = new_elements
         a_progressions.append(new_elements)
-    return a_progressions, answer
+    return a_progressions, elements_replacement
 
 
-def play_prog():
-    question, answer = generate_progressions()
-    question = " ".join(map(str, question))
-    return question, answer, int
+def generate_question_answer():
+    progression, element = generate_progressions()
+    answer = progression.pop(element)
+    progression.insert(element, "..")
+    question = " ".join(map(str, progression))
+    return question, str(answer)

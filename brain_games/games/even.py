@@ -1,11 +1,13 @@
-from brain_games.games.logic import generate_number
+import random
+
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def is_even_number(number: int) -> bool:
+def is_even(number: int) -> bool:
     return number % 2 == 0
 
 
-def play_even():
-    number = generate_number(min_number=1, max_number=50)
-    answer = "yes" if is_even_number(number) else "no"
-    return number, answer, str
+def generate_question_answer():
+    number = random.randint(1, 50)
+    answer = "yes" if is_even(number) else "no"
+    return number, answer
