@@ -27,6 +27,11 @@
 1. `git clone https://github.com/Vasiliii3/brain_games`
 2. `cd brain_games`
 3. `make install`
+4. Для сборки пакета `make build`
+5. Для установки пакета игр `make package-install`
+6. Для удаление пакета игр `make uninstall`
+
+После установки пакета с играми, игры можно запускать без make
 
 ### Требования
 * Python 3.9 и выше
