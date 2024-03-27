@@ -21,6 +21,7 @@
 
 `pip install --user git+https://github.com/Vasiliii3/brain_games`
 
+или
 
 * Клонируйте репозиторий и используйте poetry:
 1. `git clone https://github.com/Vasiliii3/brain_games`
