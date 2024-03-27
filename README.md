@@ -1,6 +1,6 @@
 ### Линтеры
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/a88785ff5134935ffafa/maintainability)](https://codeclimate.com/github/Vasiliii3/python-project-lvl1/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/2d178b721a56065a1606/maintainability)](https://codeclimate.com/github/Vasiliii3/brain_games/maintainability)
 [![test lint](https://github.com/Vasiliii3/brain_games/actions/workflows/lint.yml/badge.svg)](https://github.com/Vasiliii3/brain_games/actions/workflows/lint.yml)
 
 ### Описание
