@@ -1,33 +1,50 @@
-# My first project
-Project within the course [hexlet](https://ru.hexlet.io/)
-### Hexlet tests and linter status:
+### Линтеры
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a88785ff5134935ffafa/maintainability)](https://codeclimate.com/github/Vasiliii3/python-project-lvl1/maintainability)
-[![hexlet-check](https://github.com/Vasiliii3/python-project-lvl1/actions/workflows/hexlet-check.yml/badge.svg?branch=main)](https://github.com/Vasiliii3/python-project-lvl1/actions/workflows/hexlet-check.yml)
-[![test lint](https://github.com/Vasiliii3/python-project-lvl1/actions/workflows/lint.yml/badge.svg?branch=main)](https://github.com/Vasiliii3/python-project-lvl1/actions/workflows/lint.yml)
+[![test lint](https://github.com/Vasiliii3/brain_games/actions/workflows/lint.yml/badge.svg)](https://github.com/Vasiliii3/brain_games/actions/workflows/lint.yml)
 
-You can play the following games:
+### Описание
+Игры разума — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга. 
 
-* Even check (command to call brain-even)
-* Calculator (brain-calc)
-* Greatest common divider (brain-gcd)
-* Arithmetic progression (brain-progression)
-* Prime number (brain-prime)
+Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново. 
+
+### Игры:
+
+* Калькулятор. Арифметические выражения, которые необходимо вычислить (Для вызова из консоли `make barin-calc`)
+* Прогрессия. Поиск пропущенных чисел в последовательности чисел (Для вызова из консоли `make barin-progression`)
+* Определение четного числа (Для вызова из консоли `make barin-even`)
+* Определение наибольшего общего делителя (Для вызова из консоли `make barin-gcd`)
+* Определение простого числа (Для вызова из консоли `make barin-prime`)
+
+### Установка
+* Используйте диспетчер пакетов pip:
+
+`pip install --user git+https://github.com/Vasiliii3/brain_games`
 
 
-Game Example:
+* Клонируйте репозиторий и используйте poetry:
+1. `git clone https://github.com/Vasiliii3/brain_games`
+2. `cd brain_games`
+3. `make install`
 
-Even check
-[![asciicast](https://asciinema.org/a/UjbmIxsNZ9RpniWBD3xvimqcJ.svg)](https://asciinema.org/a/UjbmIxsNZ9RpniWBD3xvimqcJ)
+### Требования
+* Python 3.9 и выше
+* Poetry 1.7 и выше
 
-Calculator
+### Примеры игр:
+
+* Калькулятор
 [![asciicast](https://asciinema.org/a/xsSoMnIoULSgj2FiS5Y8tCL12.svg)](https://asciinema.org/a/xsSoMnIoULSgj2FiS5Y8tCL12)
 
-Greatest common divider
-[![asciicast](https://asciinema.org/a/QNp1oIRiW77IiYlD5seoAZDp3.svg)](https://asciinema.org/a/QNp1oIRiW77IiYlD5seoAZDp3)
-
-Arithmetic progression
+* Прогрессия
 [![asciicast](https://asciinema.org/a/zrrsiCDNExnXWTxB3X1BoZrM3.svg)](https://asciinema.org/a/zrrsiCDNExnXWTxB3X1BoZrM3)
 
-Prime number
+* Определение четного числа
+[![asciicast](https://asciinema.org/a/UjbmIxsNZ9RpniWBD3xvimqcJ.svg)](https://asciinema.org/a/UjbmIxsNZ9RpniWBD3xvimqcJ)
+
+* Определение наибольшего общего делителя
+[![asciicast](https://asciinema.org/a/QNp1oIRiW77IiYlD5seoAZDp3.svg)](https://asciinema.org/a/QNp1oIRiW77IiYlD5seoAZDp3)
+
+* Определение простого числа
 [![asciicast](https://asciinema.org/a/Jy0jE7QPyU54ywb0HpzeX819H.svg)](https://asciinema.org/a/Jy0jE7QPyU54ywb0HpzeX819H)
+
